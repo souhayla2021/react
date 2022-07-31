@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "firstname": "hiba",
+    "lastname": "zorgui",
+    "age": 25,
+    "languages": ["french", "english"]
+  },
+  {
+    "id": 2,
+    "firstname": "khawla",
+    "lastname": "zorgui",
+    "age": 29,
+    "languages": ["french", "english"]
+  }
+ 
+]

@@ -1,0 +1,19 @@
+:root {
+  --highlight-color: #999999;
+  --stripe-color: #999999;
+}
+
+table {
+  &.striped > tbody > tr:nth-child(odd) > {
+    td,
+    th {
+      background-color: var(--stripe-color);
+      z-index: 1;
+    }
+  }
+
+  &.highlight > tbody > tr:hover > td {
+    background-color: var(--highlight-color) !important;
+    z-index: 2;
+  }
+}

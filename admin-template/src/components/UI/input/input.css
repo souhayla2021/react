@@ -1,0 +1,50 @@
+input, textarea, select{
+	background-color: #eee;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 15px 15px;
+	margin: 8px 0;
+    width: 100%;
+}
+
+select option:hover { 
+    background: rgb(28, 120, 163) !important;
+    color: black;
+}
+
+
+label{
+	width: 100%;
+}
+
+.radioLabel{
+    background-color: #eee;
+	border: none;
+    width: 50%;
+    font-size: 14px;
+    display: inline-flex;
+    color: black;
+    justify-content: center;
+    line-height: 2px;
+}
+
+input[type="radio"]{
+    width: 20%;
+    margin: -5px 0px;
+}
+
+.form-error{
+    color: red;
+    text-align: left;
+    font-size: small;
+}
+
+.input-error{
+    border-color: red !important;
+}
+
+textarea {
+    resize: vertical;
+}
+
+

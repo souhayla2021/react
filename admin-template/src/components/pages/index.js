@@ -1,0 +1,10 @@
+export { Statistics } from './Statistics';
+export { Students } from './Students';
+export { Parents } from './Parents';
+export { Employees } from './Employees';
+export { Teachers } from './Teachers';
+export { Extracurricular } from './Extracurricular';
+export { ExtracurricularDetails } from './ExtracurricularDetails';
+export { StudentExtracurricular } from './StudentExtracurricular';
+export { StudentExtracurricularDetails } from './StudentExtracurricularDetails';
+export { Absences } from './Absences';
